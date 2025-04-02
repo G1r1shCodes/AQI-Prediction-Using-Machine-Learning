@@ -1,0 +1,6 @@
+WORKFLOW
+1.Data Collection: Finding Best Dataset for PS
+2.Understanding the Data: Data Point, Rows, Coloumn, Missing values.
+3.Data Processing: Process the Data for compatibility for ML Model
+4.FB Prophet Model: Model Developed By Facebook forecasting Model to Give Future Prediction.
+5.Predicting Future Trends
