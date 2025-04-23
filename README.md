@@ -85,7 +85,7 @@ Trained on cleaned UCI Air Quality Dataset using:
 - **RandomForestRegressor**  
 - **AdaBoostRegressor**
 
-Sample R² Score: `~0.9947` (on test set)
+Sample R² Score: `~0.95` (on test set)
 
 ---
 
