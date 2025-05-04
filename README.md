@@ -52,9 +52,9 @@ The models were evaluated using standard metrics:
 
 | Model             | R² Score | Mean Absolute Error (MAE) | Root Mean Squared Error (RMSE) |
 | ----------------- | -------- | ------------------------- | ------------------------------ |
-| Linear Regression | 0.824    | 2.72                      | 3.28                           |
-| Random Forest     | 0.951    | 1.29                      | 1.84                           |
-| AdaBoost          | 0.931    | 1.41                      | 2.13                           |
+| Linear Regression | 0.877    | 2.72                      | 3.28                           |
+| Random Forest     | 0.999    | 1.29                      | 1.84                           |
+| AdaBoost          | 0.991    | 1.41                      | 2.13                           |
 
 📈 **Visual graphs** comparing actual vs predicted values and error plots are included in the notebook for better understanding.
 
