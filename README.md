@@ -1,16 +1,14 @@
----
-
 # 🌍 AQI Prediction Web App
 
 An interactive **Air Quality Index (AQI) prediction** tool built with **Streamlit** and powered by **Machine Learning**. Predict AQI using environmental inputs and compare model performance in real-time.
 
-🔗 **[Try the Live App Here](https://aqipredictbygirish.streamlit.app/)**
+🔗 **[👉 Try the Live App](https://aqipredictbygirish.streamlit.app/)**
 
 ---
 
 ## 📽️ Live Demo
 
-![AQI Prediction Demo](https://media.giphy.com/media/v1.YOUR-GIF-LINK-HERE/giphy.gif) <!-- Replace with actual GIF URL -->
+![AQI Prediction Demo](https://media.giphy.com/media/jp2Zt8oemStQ2/giphy.gif)
 
 ---
 
@@ -44,7 +42,7 @@ AQI-Prediction-Using-Machine-Learning/
 
 ## 🧠 How It Works
 
-The app predicts AQI using machine learning models trained on environmental data. A simplified AQI approximation formula is used (can be customized):
+The app predicts AQI using machine learning models trained on environmental data. A simplified AQI approximation formula is used:
 
 ```python
 AQI = (NO₂ + CO + O₃) / 3
@@ -56,28 +54,34 @@ AQI = (NO₂ + CO + O₃) / 3
 
 ## 🧪 Methodology
 
-1. **Data Collection**:
-   Sourced from the [UCI Air Quality dataset](https://archive.ics.uci.edu/ml/datasets/Air+Quality).
+1. **Data Collection**
 
-2. **Preprocessing**:
-   • Removed nulls and invalid rows
-   • Selected key pollutants & meteorological features
+   * Sourced from the [UCI Air Quality dataset](https://archive.ics.uci.edu/ml/datasets/Air+Quality)
 
-3. **Feature Engineering**:
-   • Created AQI using pollutant averages (NO₂, CO, O₃)
+2. **Preprocessing**
 
-4. **Model Training**:
-   • Linear Regression
-   • Random Forest
-   • AdaBoost
+   * Removed null and invalid rows
+   * Selected key pollutant and weather features
 
-5. **Evaluation Metrics**:
-   • R² Score
-   • Mean Absolute Error (MAE)
-   • Root Mean Squared Error (RMSE)
+3. **Feature Engineering**
 
-6. **Deployment**:
-   • Deployed on Streamlit Cloud with real-time inputs
+   * Created AQI using pollutant averages (NO₂, CO, O₃)
+
+4. **Model Training**
+
+   * Linear Regression
+   * Random Forest
+   * AdaBoost
+
+5. **Evaluation Metrics**
+
+   * R² Score
+   * Mean Absolute Error (MAE)
+   * Root Mean Squared Error (RMSE)
+
+6. **Deployment**
+
+   * Interactive web UI using Streamlit
 
 ---
 
@@ -89,7 +93,7 @@ AQI = (NO₂ + CO + O₃) / 3
 | Random Forest     | **0.999** | **1.29** | **1.84** |
 | AdaBoost          | 0.991     | 1.41     | 2.13     |
 
-🧩 Includes graphs of predicted vs actual AQI for all models (in notebook).
+📈 Visualizations of predictions vs actual AQI and error metrics are available in the notebook.
 
 ---
 
@@ -108,20 +112,20 @@ AQI = (NO₂ + CO + O₃) / 3
 
 ## 🚀 Getting Started
 
-### Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/G1r1shCodes/AQI-Prediction-Using-Machine-Learning.git
 cd AQI-Prediction-Using-Machine-Learning
 ```
 
-### Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Locally
+### 3. Run the App
 
 ```bash
 streamlit run app.py
@@ -129,44 +133,40 @@ streamlit run app.py
 
 ---
 
-## 🌟 Deployed Version
+## 🌐 Deployed Version
 
 ▶️ **Live App:** [aqipredictbygirish.streamlit.app](https://aqipredictbygirish.streamlit.app/)
 
-You can use the app on any device with a browser—no installations needed!
+You can use the app on any device with a browser — no installations needed.
 
 ---
 
-## 🌱 Future Enhancements
+## 🛠️ Future Enhancements
 
-* [ ] Integrate **official AQI standards** (e.g., CPCB, EPA)
-* [ ] Add **real-time sensor/IoT data**
-* [ ] UI enhancements (charts, filters, dark mode)
-* [ ] Save predictions with **database backend**
-* [ ] Deploy REST API for other applications
+* [ ] Integrate official AQI standards (e.g., CPCB, EPA)
+* [ ] Real-time sensor/IoT data integration
+* [ ] Enhanced UI with charts, filters, dark mode
+* [ ] Add database backend for historical trends
+* [ ] Create API for mobile or third-party use
 
 ---
 
 ## 🙌 Contributing
 
-Pull requests are welcome! For major changes, open an issue to discuss improvements or bugs first.
+Pull requests are welcome!
+For major changes, please open an issue to discuss improvements or features first.
 
 ---
 
-## 🧾 License
+## 📸 More Visuals
 
-This project is licensed under the [MIT License](LICENSE).
+### 📈 Model Comparison
 
----
+![Model Training](https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif)
 
-## 📸 More Visuals (Add GIFs Below)
+### 🧪 Prediction Concept
 
-* **Model Comparison**
-  ![Model Comparison](https://media.giphy.com/media/v2.YOUR-GIF2/giphy.gif)
+![Data Science Theme](https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif)
 
-* **User Interaction**
-  ![User Form Submission](https://media.giphy.com/media/v3.YOUR-GIF3/giphy.gif)
-
-> 🎥 *You can create these GIFs using tools like [ScreenToGif](https://www.screentogif.com/) or [Loom](https://www.loom.com/). Upload to GitHub or Giphy and embed.*
 
 ---
